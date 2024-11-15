@@ -23,6 +23,7 @@ Store in an HDFS file the stations with a percentage of critical situations high
 - Each line of the output file is associated with one of the selected stations and contains the percentage of critical situations and the stationId
 - Sort the stored stations by percentage of critical situations
 
+---
 Compute the percentage of critical situations for each pair (timeslot, station)
 - Timeslot can assume the following 6 values:
     - [0-3]
@@ -36,6 +37,7 @@ Store in an HDFS file the pairs (timeslot, station) with a percentage of critica
 - Each line of the output file is associated with one of the selected pairs (timeslot, station) and contains the percentage of critical situations and the pair (timeslot, stationId)
 - Sort the result by percentage of critical situations
 
+------
 Select a reading (i.e., a line) of the first input file if and only if the following constraints are true
 - The line is associated with a full station situation
     - i.e., the station Si associated with the current line has a number of free slots equal to 0
